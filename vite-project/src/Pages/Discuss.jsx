@@ -1,13 +1,13 @@
 import React from 'react'
 import Navbar from '../Components/Navbar'
 
-function Profile() {
+function Discuss() {
   return (
     <>
     <Navbar/>
-    <div className='pt-25 '> profile</div>
+    <h1>Discuss</h1>
     </>
   )
 }
 
-export default Profile
+export default Discuss

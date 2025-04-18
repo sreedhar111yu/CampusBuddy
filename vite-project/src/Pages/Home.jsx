@@ -1,10 +1,17 @@
 import React from 'react'
 import { Typewriter } from 'react-simple-typewriter'
 import { motion } from 'framer-motion'
+import { useState } from 'react';
+import Navbar from '../Components/Navbar';
 
 function Home() {
+
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
-    <div className="pt-25 min-h-screen flex flex-col justify-center items-center bg-gradient-to-br from-indigo-100 via-white to-indigo-200 px-4 text-center">
+    <>
+ <Navbar/>
+<div className="pt-25 min-h-screen flex flex-col justify-center items-center bg-gradient-to-br from-indigo-100 via-white to-indigo-200 px-4 text-center">
       {/* Title */}
       <motion.h1
         initial={{ opacity: 0, y: -20 }}
@@ -32,7 +39,11 @@ function Home() {
       <p className="text-lg sm:text-xl text-gray-600 animate-bounce">
         Insights from real students
       </p>
+
     </div>
+    
+    </>
+   
   )
 }
 

@@ -5,7 +5,7 @@ function Aprofile() {
   return (
  <>
  <Sidebar_Aspirants/>
- <h1 className='flex items-center justify-center py-4'>Aprofile</h1>
+ <h1 className='md:ml-64'>Aprofile</h1>
  </>
   )
 }

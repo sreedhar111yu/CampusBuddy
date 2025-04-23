@@ -1,8 +1,14 @@
 import React from 'react'
+import Sidebar_Mentees from '../Components/Sidebar_Mentees'
 
 function Mentees() {
   return (
-    <div>Mentees</div>
+   
+    <>
+    <Sidebar_Mentees/>
+    
+    
+    </>
   )
 }
 
